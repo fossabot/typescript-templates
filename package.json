@@ -1,0 +1,17 @@
+{
+  "name": "@adriangodong/typescript-templates",
+  "version": "1.0.0",
+  "description": "This repository contains working examples of TypeScript packages.",
+  "scripts": {
+    "lerna": "lerna",
+    "ci": "lerna exec npm ci --parallel",
+    "build": "lerna run build --stream",
+    "start": "lerna run start --parallel",
+    "start:server": "lerna run start:server --parallel",
+    "start:lib": "lerna run start --parallel --scope @adriangodong/lib-*",
+    "test": "lerna run test --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
+}
