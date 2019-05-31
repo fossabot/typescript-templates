@@ -1,0 +1,26 @@
+{
+  "name": "@adriangodong/lib-rollup-umd",
+  "version": "1.0.0",
+  "description": "",
+  "browser": "dist/index.umd.js",
+  "types": "dist/index.umd.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -cw",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "rollup": "^1.12.5",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^2.0.1",
+    "rollup-plugin-eslint": "^6.0.0",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  }
+}
