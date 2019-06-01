@@ -1,0 +1,42 @@
+{
+  "name": "@adriangodong/lib-react-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup",
+    "build": "rollup -c",
+    "start": "rollup -cw",
+    "start:server": "start-storybook",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.0.11",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/storybook__react": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "react-test-renderer": "^16.8.6",
+    "rollup": "^1.13.1",
+    "rollup-plugin-eslint": "^6.0.0",
+    "rollup-plugin-less": "^1.1.2",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}

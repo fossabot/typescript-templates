@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "jsx": "react",
+        "module": "esnext",
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es5",
+    }
+}
