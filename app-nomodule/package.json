@@ -1,0 +1,20 @@
+{
+  "name": "@adriangodong/app-nomodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc",
+    "start": "tsc -w",
+    "start:server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
