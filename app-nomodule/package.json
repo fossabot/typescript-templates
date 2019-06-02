@@ -13,8 +13,5 @@
   "devDependencies": {
     "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd",
     "typescript": "^3.5.1"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
   }
 }
