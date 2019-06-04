@@ -12,7 +12,14 @@ export default {
 
     plugins: [
         less({
-            output: './dist/bundle.css'
+            output: './dist/bundle.css',
+            option: {
+                sourceMap: {
+                    sourceMapFileInline: true,
+                    // outputFilename: 'bundle.css.map',
+                    outputSourceFiles: true
+                }
+            }
         }),
         eslint({
             include: ['**/*.ts*']
