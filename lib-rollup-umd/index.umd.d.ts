@@ -1,2 +1,2 @@
 export as namespace LibRollupUmd;
-export * from "./index";
+export * from "./dist/index";

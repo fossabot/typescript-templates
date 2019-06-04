@@ -2,6 +2,7 @@
   "name": "@adriangodong/app-module",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "scripts": {
     "webpack": "webpack",
     "build": "webpack --mode production",

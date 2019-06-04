@@ -4,6 +4,7 @@
   "description": "",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "private": true,
   "scripts": {
     "rollup": "rollup",
     "build": "rollup -c",

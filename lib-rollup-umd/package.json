@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "browser": "dist/index.umd.js",
-  "types": "dist/index.umd.d.ts",
+  "types": "index.umd.d.ts",
+  "private": true,
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -cw",
