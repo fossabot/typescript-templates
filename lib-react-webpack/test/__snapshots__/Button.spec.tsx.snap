@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button 1`] = `<button />`;
+
+exports[`Button with label 1`] = `
+<button>
+  label
+</button>
+`;

@@ -1,0 +1,18 @@
+{
+  "name": "@adriangodong/lib-react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "rollup": "webpack",
+    "build": "webpack --mode production",
+    "start": "webpack --mode development --watch",
+    "start:server": "start-storybook",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest-cli": "^24.8.0"
+  }
+}

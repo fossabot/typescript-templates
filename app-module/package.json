@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@adriangodong/lib-react-rollup": "file:../lib-react-rollup",
+    "@adriangodong/lib-react-webpack": "file:../lib-react-webpack",
     "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd"
   }
 }

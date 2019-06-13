@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
+    "@adriangodong/lib-react-webpack": "file:../lib-react-webpack",
     "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd"
   }
 }
