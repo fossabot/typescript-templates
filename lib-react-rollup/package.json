@@ -11,10 +11,5 @@
     "start": "rollup -cw",
     "start:server": "start-storybook",
     "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^24.8.0",
-    "rollup": "^1.13.1",
-    "typescript": "^3.5.1"
   }
 }

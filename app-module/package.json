@@ -12,8 +12,6 @@
   },
   "devDependencies": {
     "@adriangodong/lib-react-rollup": "file:../lib-react-rollup",
-    "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd",
-    "typescript": "^3.5.1",
-    "webpack": "^4.32.2"
+    "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd"
   }
 }

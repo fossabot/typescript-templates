@@ -11,7 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd",
-    "typescript": "^3.5.1"
+    "@adriangodong/lib-rollup-umd": "file:../lib-rollup-umd"
   }
 }

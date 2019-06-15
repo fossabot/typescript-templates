@@ -6,8 +6,11 @@
     "lerna": "lerna",
     "ci": "lerna exec npm ci --parallel",
     "build": "lerna run build --stream",
+    "build:app": "lerna run build --stream --scope @adriangodong/app-*",
+    "build:lib": "lerna run build --stream --scope @adriangodong/lib-*",
     "start": "lerna run start --parallel",
     "start:server": "lerna run start:server --parallel",
+    "start:app": "lerna run start --parallel --scope @adriangodong/app-*",
     "start:lib": "lerna run start --parallel --scope @adriangodong/lib-*",
     "test": "lerna run test --stream"
   },
